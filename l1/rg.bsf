@@ -21,9 +21,9 @@ agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 144 112)
+	(rect 64 64 192 176)
 	(text "rg" (rect 5 0 16 19)(font "Intel Clear" (font_size 8)))
-	(text "inst" (rect 8 75 24 92)(font "Intel Clear" ))
+	(text "inst" (rect 24 88 40 105)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -46,6 +46,13 @@ agreement for further details.
 		(line (pt 0 64)(pt 16 64)(line_width 3))
 	)
 	(port
+		(pt 0 80)
+		(input)
+		(text "clock" (rect 24 72 53 91)(font "Intel Clear" (font_size 8)))
+		(text "clock" (rect 24 72 53 91)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
 		(pt 128 32)
 		(output)
 		(text "q[3..0]" (rect 0 0 38 19)(font "Intel Clear" (font_size 8)))
@@ -53,6 +60,6 @@ agreement for further details.
 		(line (pt 128 32)(pt 112 32)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 112 80))
+		(rectangle (rect 16 16 112 104))
 	)
 )
