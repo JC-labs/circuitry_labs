@@ -69,6 +69,22 @@ agreement for further details.
 	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
 )
 (pin
+	(input)
+	(rect 152 96 328 112)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "clock" (rect 9 0 34 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+)
+(pin
 	(output)
 	(rect 768 120 944 136)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
@@ -131,6 +147,13 @@ agreement for further details.
 		(text "c" (rect 0 0 5 19)(font "Intel Clear" (font_size 8)))
 		(text "c" (rect 21 75 26 94)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "clock" (rect 24 88 53 107)(font "Intel Clear" (font_size 8)))
+		(text "clock" (rect 24 88 53 107)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
 	)
 	(port
 		(pt 96 32)
@@ -241,6 +264,13 @@ agreement for further details.
 		(line (pt 0 80)(pt 16 80))
 	)
 	(port
+		(pt 0 96)
+		(input)
+		(text "clock" (rect 24 88 53 107)(font "Intel Clear" (font_size 8)))
+		(text "clock" (rect 24 88 53 107)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
 		(pt 96 32)
 		(output)
 		(text "Q_i" (rect 0 0 20 19)(font "Intel Clear" (font_size 8)))
@@ -347,6 +377,13 @@ agreement for further details.
 		(text "c" (rect 0 0 5 19)(font "Intel Clear" (font_size 8)))
 		(text "c" (rect 21 75 26 94)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "clock" (rect 24 88 53 107)(font "Intel Clear" (font_size 8)))
+		(text "clock" (rect 24 88 53 107)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
 	)
 	(port
 		(pt 96 32)
@@ -457,6 +494,13 @@ agreement for further details.
 		(line (pt 0 80)(pt 16 80))
 	)
 	(port
+		(pt 0 96)
+		(input)
+		(text "clock" (rect 24 88 53 107)(font "Intel Clear" (font_size 8)))
+		(text "clock" (rect 24 88 53 107)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
 		(pt 96 32)
 		(output)
 		(text "Q_i" (rect 0 0 20 19)(font "Intel Clear" (font_size 8)))
@@ -565,6 +609,13 @@ agreement for further details.
 		(line (pt 0 80)(pt 16 80))
 	)
 	(port
+		(pt 0 96)
+		(input)
+		(text "clock" (rect 24 88 53 107)(font "Intel Clear" (font_size 8)))
+		(text "clock" (rect 24 88 53 107)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
 		(pt 96 32)
 		(output)
 		(text "Q_i" (rect 0 0 20 19)(font "Intel Clear" (font_size 8)))
@@ -635,6 +686,13 @@ agreement for further details.
 		(text "c" (rect 0 0 5 19)(font "Intel Clear" (font_size 8)))
 		(text "c" (rect 21 75 26 94)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "clock" (rect 24 88 53 107)(font "Intel Clear" (font_size 8)))
+		(text "clock" (rect 24 88 53 107)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
 	)
 	(port
 		(pt 96 32)
@@ -743,6 +801,13 @@ agreement for further details.
 		(text "c" (rect 0 0 5 19)(font "Intel Clear" (font_size 8)))
 		(text "c" (rect 21 75 26 94)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "clock" (rect 24 88 53 107)(font "Intel Clear" (font_size 8)))
+		(text "clock" (rect 24 88 53 107)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
 	)
 	(port
 		(pt 96 32)
@@ -887,6 +952,13 @@ agreement for further details.
 		(text "c" (rect 0 0 5 19)(font "Intel Clear" (font_size 8)))
 		(text "c" (rect 21 75 26 94)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "clock" (rect 24 88 53 107)(font "Intel Clear" (font_size 8)))
+		(text "clock" (rect 24 88 53 107)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
 	)
 	(port
 		(pt 96 32)
@@ -2020,6 +2092,74 @@ agreement for further details.
 	(pt 352 288)
 	(pt 512 288)
 )
+(connector
+	(pt 496 248)
+	(pt 520 248)
+)
+(connector
+	(pt 496 400)
+	(pt 520 400)
+)
+(connector
+	(pt 496 552)
+	(pt 520 552)
+)
+(connector
+	(pt 496 704)
+	(pt 520 704)
+)
+(connector
+	(pt 496 400)
+	(pt 496 552)
+)
+(connector
+	(pt 496 856)
+	(pt 520 856)
+)
+(connector
+	(pt 496 552)
+	(pt 496 704)
+)
+(connector
+	(pt 496 1008)
+	(pt 520 1008)
+)
+(connector
+	(pt 496 704)
+	(pt 496 856)
+)
+(connector
+	(pt 496 1160)
+	(pt 520 1160)
+)
+(connector
+	(pt 496 856)
+	(pt 496 1008)
+)
+(connector
+	(pt 496 1312)
+	(pt 520 1312)
+)
+(connector
+	(pt 496 1008)
+	(pt 496 1160)
+)
+(connector
+	(pt 496 1160)
+	(pt 496 1312)
+)
+(connector
+	(pt 496 104)
+	(pt 496 248)
+)
+(connector
+	(pt 496 248)
+	(pt 496 400)
+)
+(connector
+	(pt 328 104)
+	(pt 496 104)
+)
 (junction (pt 360 216))
 (junction (pt 360 176))
 (junction (pt 512 288))
@@ -2073,3 +2213,10 @@ agreement for further details.
 (junction (pt 760 128))
 (junction (pt 336 160))
 (junction (pt 336 312))
+(junction (pt 496 248))
+(junction (pt 496 400))
+(junction (pt 496 552))
+(junction (pt 496 704))
+(junction (pt 496 856))
+(junction (pt 496 1008))
+(junction (pt 496 1160))

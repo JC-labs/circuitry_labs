@@ -40,7 +40,7 @@ agreement for further details.
 	(input)
 	(rect 120 168 288 184)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "x" (rect 5 0 10 17)(font "Intel Clear" ))
+	(text "x" (rect 5 0 9 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -56,7 +56,7 @@ agreement for further details.
 	(input)
 	(rect 120 248 288 264)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "c" (rect 5 0 10 17)(font "Intel Clear" ))
+	(text "c" (rect 5 0 9 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -72,7 +72,23 @@ agreement for further details.
 	(input)
 	(rect 120 72 288 88)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "f1" (rect 5 0 15 17)(font "Intel Clear" ))
+	(text "f1" (rect 5 0 14 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 120 424 288 440)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "clock" (rect 5 0 31 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -340,7 +356,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 624 72 688 120)
+	(rect 640 280 704 328)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst6" (rect 3 37 25 54)(font "Intel Clear" ))
 	(port
@@ -781,26 +797,6 @@ agreement for further details.
 	(pt 624 200)
 )
 (connector
-	(pt 360 88)
-	(pt 624 88)
-)
-(connector
-	(pt 624 104)
-	(pt 544 104)
-)
-(connector
-	(pt 544 104)
-	(pt 544 184)
-)
-(connector
-	(pt 368 184)
-	(pt 544 184)
-)
-(connector
-	(pt 544 184)
-	(pt 592 184)
-)
-(connector
 	(pt 688 208)
 	(pt 696 208)
 )
@@ -811,18 +807,6 @@ agreement for further details.
 (connector
 	(pt 760 216)
 	(pt 776 216)
-)
-(connector
-	(pt 688 96)
-	(pt 768 96)
-)
-(connector
-	(pt 768 96)
-	(pt 768 232)
-)
-(connector
-	(pt 768 232)
-	(pt 776 232)
 )
 (connector
 	(pt 848 216)
@@ -871,6 +855,54 @@ agreement for further details.
 (connector
 	(pt 528 352)
 	(pt 528 368)
+)
+(connector
+	(pt 544 312)
+	(pt 640 312)
+)
+(connector
+	(pt 544 184)
+	(pt 544 312)
+)
+(connector
+	(pt 368 184)
+	(pt 544 184)
+)
+(connector
+	(pt 544 184)
+	(pt 592 184)
+)
+(connector
+	(pt 808 304)
+	(pt 808 272)
+)
+(connector
+	(pt 704 304)
+	(pt 808 304)
+)
+(connector
+	(pt 560 88)
+	(pt 560 296)
+)
+(connector
+	(pt 640 296)
+	(pt 560 296)
+)
+(connector
+	(pt 360 88)
+	(pt 560 88)
+)
+(connector
+	(pt 776 232)
+	(pt 768 232)
+)
+(connector
+	(pt 768 232)
+	(pt 768 432)
+)
+(connector
+	(pt 768 432)
+	(pt 288 432)
 )
 (junction (pt 288 176))
 (junction (pt 288 128))
