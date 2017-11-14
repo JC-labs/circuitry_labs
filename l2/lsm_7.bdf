@@ -100,6 +100,22 @@ agreement for further details.
 		(line (pt 78 12)(pt 82 8))
 	)
 )
+(pin
+	(output)
+	(rect 752 -24 928 -8)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "CO" (rect 90 0 106 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
 (symbol
 	(rect 304 24 400 120)
 	(text "Lnp" (rect 5 0 26 14)(font "Arial" (font_size 8)))
@@ -931,7 +947,7 @@ agreement for further details.
 (symbol
 	(rect 304 336 400 432)
 	(text "Lnp" (rect 5 0 26 14)(font "Arial" (font_size 8)))
-	(text "inst3" (rect 8 80 30 97)(font "Intel Clear" ))
+	(text "inst3" (rect 8 80 31 92)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -1593,15 +1609,6 @@ agreement for further details.
 	(pt 264 216)
 )
 (connector
-	(text "X[3]" (rect 578 352 598 369)(font "Intel Clear" ))
-	(pt 560 368)
-	(pt 592 368)
-)
-(connector
-	(pt 592 368)
-	(pt 600 368)
-)
-(connector
 	(text "C[4]" (rect 128 240 148 257)(font "Intel Clear" ))
 	(pt 120 256)
 	(pt 144 256)
@@ -1741,21 +1748,9 @@ agreement for further details.
 	(bus)
 )
 (connector
-	(text "X[0..1]" (rect 40 224 70 241)(font "Intel Clear" ))
-	(pt 32 240)
-	(pt 144 240)
-	(bus)
-)
-(connector
 	(text "Y[4..5]" (rect 40 496 70 513)(font "Intel Clear" ))
 	(pt 32 512)
 	(pt 144 512)
-	(bus)
-)
-(connector
-	(text "X[0..6]" (rect 101 -40 131 -23)(font "Intel Clear" ))
-	(pt 32 -24)
-	(pt 552 -24)
 	(bus)
 )
 (connector
@@ -1998,6 +1993,32 @@ agreement for further details.
 	(pt 304 384)
 	(pt 280 384)
 )
+(connector
+	(text "X[3]" (rect 578 352 598 369)(font "Intel Clear" ))
+	(pt 560 368)
+	(pt 592 368)
+)
+(connector
+	(pt 592 368)
+	(pt 600 368)
+)
+(connector
+	(text "Y[0..1]" (rect 40 224 70 241)(font "Intel Clear" ))
+	(pt 32 240)
+	(pt 144 240)
+	(bus)
+)
+(connector
+	(text "Y[0..6]" (rect 101 -40 131 -23)(font "Intel Clear" ))
+	(pt 32 -24)
+	(pt 552 -24)
+	(bus)
+)
+(connector
+	(text "C[6]" (rect 576 -32 596 -15)(font "Intel Clear" ))
+	(pt 568 -16)
+	(pt 752 -16)
+)
 (junction (pt 288 56))
 (junction (pt 288 160))
 (junction (pt 288 264))
@@ -2084,3 +2105,4 @@ agreement for further details.
 (junction (pt 568 504))
 (junction (pt 568 608))
 (junction (pt 280 384))
+(junction (pt 568 -16))
