@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "MAX II"
 set_global_assignment -name DEVICE AUTO
-set_global_assignment -name TOP_LEVEL_ENTITY lsm
+set_global_assignment -name TOP_LEVEL_ENTITY l2
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 17.0.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "18:14:01  NOVEMBER 14, 2017"
 set_global_assignment -name LAST_QUARTUS_VERSION "17.0.0 Lite Edition"
@@ -81,3 +81,4 @@ set_global_assignment -name BDF_FILE lsm_7.bdf
 set_global_assignment -name BSF_FILE cg.bsf
 set_global_assignment -name BDF_FILE cg.bdf
 set_global_assignment -name BDF_FILE lsm.bdf
+set_global_assignment -name BDF_FILE zero.bdf
