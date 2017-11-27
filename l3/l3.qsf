@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "MAX II"
 set_global_assignment -name DEVICE AUTO
-set_global_assignment -name TOP_LEVEL_ENTITY ram_48
+set_global_assignment -name TOP_LEVEL_ENTITY ram_48x8
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 17.0.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "12:58:17  NOVEMBER 15, 2017"
 set_global_assignment -name LAST_QUARTUS_VERSION "17.0.0 Lite Edition"
@@ -47,3 +47,7 @@ set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name BDF_FILE ram_i.bdf
 set_global_assignment -name BDF_FILE ram_48.bdf
 set_global_assignment -name BDF_FILE ram_7.bdf
+set_global_assignment -name BDF_FILE ram.bdf
+set_global_assignment -name BDF_FILE ram_48x2.bdf
+set_global_assignment -name BDF_FILE ram_48x4.bdf
+set_global_assignment -name BDF_FILE ram_48x8.bdf
