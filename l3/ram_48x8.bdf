@@ -280,7 +280,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 616 208 680 256)
+	(rect 616 216 680 264)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst11" (rect 3 37 31 54)(font "Intel Clear" ))
 	(port
@@ -558,59 +558,6 @@ agreement for further details.
 	(bus)
 )
 (connector
-	(text "a[1]" (rect 592 184 610 201)(font "Intel Clear" ))
-	(pt 584 200)
-	(pt 776 200)
-)
-(connector
-	(text "a[0]" (rect 688 216 706 233)(font "Intel Clear" ))
-	(pt 680 232)
-	(pt 776 232)
-)
-(connector
-	(pt 352 216)
-	(pt 480 216)
-)
-(connector
-	(pt 480 208)
-	(pt 520 208)
-)
-(connector
-	(pt 480 240)
-	(pt 616 240)
-)
-(connector
-	(pt 480 208)
-	(pt 480 216)
-)
-(connector
-	(pt 480 216)
-	(pt 480 240)
-)
-(connector
-	(pt 616 224)
-	(pt 608 224)
-)
-(connector
-	(pt 608 224)
-	(pt 608 232)
-)
-(connector
-	(text "a[0]" (rect 392 216 410 233)(font "Intel Clear" ))
-	(pt 608 232)
-	(pt 384 232)
-)
-(connector
-	(text "a[1]" (rect 392 176 410 193)(font "Intel Clear" ))
-	(pt 520 192)
-	(pt 384 192)
-)
-(connector
-	(pt 384 192)
-	(pt 384 232)
-	(bus)
-)
-(connector
 	(pt 480 376)
 	(pt 520 376)
 )
@@ -659,11 +606,6 @@ agreement for further details.
 	(pt 472 360)
 )
 (connector
-	(pt 384 232)
-	(pt 384 360)
-	(bus)
-)
-(connector
 	(pt 384 360)
 	(pt 384 408)
 	(bus)
@@ -672,16 +614,6 @@ agreement for further details.
 	(text "a[1]" (rect 392 344 410 361)(font "Intel Clear" ))
 	(pt 424 360)
 	(pt 384 360)
-)
-(connector
-	(pt 776 200)
-	(pt 776 232)
-	(bus)
-)
-(connector
-	(pt 776 232)
-	(pt 776 264)
-	(bus)
 )
 (connector
 	(pt 776 368)
@@ -705,6 +637,66 @@ agreement for further details.
 	(pt 976 432)
 	(bus)
 )
+(connector
+	(pt 352 216)
+	(pt 480 216)
+)
+(connector
+	(text "a[1]" (rect 592 184 610 201)(font "Intel Clear" ))
+	(pt 776 200)
+	(pt 584 200)
+)
+(connector
+	(text "a[1]" (rect 392 176 410 193)(font "Intel Clear" ))
+	(pt 384 192)
+	(pt 520 192)
+)
+(connector
+	(pt 480 208)
+	(pt 520 208)
+)
+(connector
+	(text "a[0]" (rect 392 216 410 233)(font "Intel Clear" ))
+	(pt 384 232)
+	(pt 616 232)
+)
+(connector
+	(text "a[0]" (rect 688 224 706 241)(font "Intel Clear" ))
+	(pt 776 240)
+	(pt 680 240)
+)
+(connector
+	(pt 480 248)
+	(pt 616 248)
+)
+(connector
+	(pt 384 192)
+	(pt 384 232)
+	(bus)
+)
+(connector
+	(pt 384 232)
+	(pt 384 360)
+	(bus)
+)
+(connector
+	(pt 776 200)
+	(pt 776 240)
+	(bus)
+)
+(connector
+	(pt 776 240)
+	(pt 776 264)
+	(bus)
+)
+(connector
+	(pt 480 208)
+	(pt 480 216)
+)
+(connector
+	(pt 480 216)
+	(pt 480 248)
+)
 (junction (pt 352 216))
 (junction (pt 336 280))
 (junction (pt 960 200))
@@ -714,9 +706,9 @@ agreement for further details.
 (junction (pt 912 248))
 (junction (pt 1144 200))
 (junction (pt 480 216))
-(junction (pt 384 192))
-(junction (pt 384 232))
 (junction (pt 480 384))
 (junction (pt 384 360))
-(junction (pt 776 232))
 (junction (pt 776 416))
+(junction (pt 384 192))
+(junction (pt 384 232))
+(junction (pt 776 240))
